@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import "./Item.scss";
+import { useParams } from "react-router-dom";
+import "./item.scss";
 import axios from "axios";
-import item from "../../assets/image/item.png";
 import star from "../../assets/star.svg";
 import like from "../../assets/like.svg";
 import delivery from "../../assets/delivery1.svg";
 import delivery2 from "../../assets/delivery2.svg";
-import aye from "../../assets/aye.svg";
-import wishlist from "../../assets/wishlist.svg";
 
 const API = "https://65ab6a1efcd1c9dcffc659a4.mockapi.io/api/v1/advertisement";
 function ItemProduct() {
