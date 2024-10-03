@@ -1,0 +1,209 @@
+.about{
+    height: 609px;
+    margin-top: 159px;
+    display: flex;
+         
+
+        .about-text{
+            width: 525px;
+            height: 336px;
+            margin-right: 75px;
+            margin-top: 137px;
+          
+
+       
+
+      h3{
+                        /* Heading/54PX SemiBold */
+                color: rgb(0, 0, 0);
+                font-family: Inter;
+                font-size: 54px;
+                font-weight: 600;
+                line-height: 64px;
+                letter-spacing: 6%;
+                text-align: justify;
+      }
+
+      p{
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin-top: 40px;
+      }
+    }
+    .about-img{
+        width: 750px;
+        height: 609px;
+       
+        
+    }
+}
+
+.box{
+    width: 1170px;
+    margin-top: 140px;
+    display: flex;
+    gap: 30px;
+  
+
+    .box-content{
+        width: 270px;
+        height: 230px;
+        box-sizing: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+          
+
+        img{
+            margin-top: 30px;
+        }
+
+        h2{
+            /* Heading/32PX Bold */
+            color: rgb(0, 0, 0);
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 4%;
+            text-align: left;
+            margin-top: 24px;
+        }
+
+        h6{
+            /* Title/16PX Regular */
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+       
+    }
+    .box-content:hover{
+
+        border: 1px solid rgba(160, 142, 142, 0.3);
+        background-color: rgb(219, 68, 68);;
+        color: white;
+
+            h2{
+                color: white;
+            }
+            h6{
+                color: white;
+            }
+}
+}
+.persons{
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+
+.person{
+    width: 370px;
+    height: 564px;
+    margin-top: 140px;
+    
+     
+     .person-img{
+        position: relative;
+        width: 370px;
+        height: 430px;
+        border-radius: 4px;
+        background: rgb(245, 245, 245);
+         
+
+           img{
+            position: absolute;
+                width: 236px;
+                height: 391px;
+                left: 67px;
+                top: 39px;
+           }
+     }
+       
+
+     .person-content{
+        width: 231px;
+        height: 102px;
+        margin-top: 32px;
+
+        h3{
+           /* Heading/32PX Medium */
+            color: rgb(0, 0, 0);
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 4%;
+            text-align: left;
+        }
+
+        p{
+            /* Title/16PX Regular */
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .icons{
+            display: flex;
+            gap: 22px;
+        }
+     }
+}
+}
+
+.services{
+    display: flex;
+   margin: 0 auto;
+    gap: 88px;
+    margin-top: 196px;
+    width: 943px;
+
+       .service{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+           width: 249px;
+           height: 161px;
+           h5{
+           
+                color: rgb(0, 0, 0);
+                font-family: Poppins;
+                font-size: 19px;
+                font-weight: 600;
+                line-height: 28px;
+                letter-spacing: 0%;
+                text-align: left;
+                margin-top: 35px;
+           }
+           h6{
+            /* Title/14PX Regular */
+                color: rgb(0, 0, 0);
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: 0%;
+                text-align: center;
+           }
+       }
+}
